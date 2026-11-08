@@ -22,7 +22,7 @@ public class Builder {
                     ", экспресс: " + (express ? "да" : "нет");
         }
 
-        // Вложенный статический класс — сам Билдер
+        
         static class OrderBuilder {
             private String from;
             private String to;
