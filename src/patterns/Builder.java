@@ -22,7 +22,6 @@ public class Builder {
                     ", экспресс: " + (express ? "да" : "нет");
         }
 
-        
         static class OrderBuilder {
             private String from;
             private String to;
